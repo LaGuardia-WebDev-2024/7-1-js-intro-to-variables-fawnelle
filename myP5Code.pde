@@ -16,6 +16,8 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   var eyeSize;
   eyeSize = 30;
+  var teeth;
+  teeth =30;
 
   ellipse(150, 70, 60, 120);  // left ear
   ellipse(240, 70, 60, 120);  // right ear
@@ -23,14 +25,14 @@ void draw(){
   ellipse(200, 170, 150, 150);    // face
 
   fill(0, 0, 0);
-  ellipse(170, 150, eyeSize, eyeSize);  // left eye
-  ellipse(230, 150, eyeSize, eyeSize);  // right eye
+  ellipse(170, 170, eyeSize, eyeSize);  // left eye
+  ellipse(230, 170, eyeSize, eyeSize);  // right eye
 
   line(150, 200, 250, 200);   // mouth
 
   noFill();
-  rect(185, 200, 15, 10); // left tooth
-  rect(200, 200, 15, 10); // right tooth
+  rect(185, 200, 10, teeth); // left tooth
+  rect(200, 200, 10, teeth); // right tooth
   
 
 }
